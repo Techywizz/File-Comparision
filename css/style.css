@@ -1,0 +1,92 @@
+body {
+  padding-top: 60px;
+}
+
+h2.title{
+	padding: 8px;
+    margin: 0;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+}
+
+.btnCompare{
+	margin-top: 6.5%
+}
+
+.formProcess{
+	margin-top: 5%
+}
+
+.full-alert{
+	text-align: center;
+}
+
+.result h3{
+	font-size: 24px;
+}
+
+.resultlist h4{
+	font-size: 16px; 
+	margin-top: 25px; 
+	background: #f1f1f1; 
+	padding: 5px 0 5px 10px; 
+	border:1px solid #ddd; 
+	border-width: 1px 1px 1px 3px
+}
+
+.resultlist h4 .instruction{
+	font-size: 14px;
+	padding-right: 10px
+}
+
+.resultlist h4 .instruction .lineno{
+	background: #000;
+    color: #fff;
+    padding: 1px 6px;
+}
+
+.resultlist > ul{
+	list-style: none;
+    background: lightyellow;
+    font-family: monospace;
+    padding: 10px 0 10px 20px;
+}
+
+.resultlist > ul > li > ul {
+	list-style: none; 
+	padding-right: 20px;
+	margin-bottom:20px;
+}
+
+.resultchanged > ul > li p{
+	font-weight: bold;
+    background: lightblue;
+    padding: 3px 10px;
+    margin-right: 20px;
+}
+
+.resultlist > ul > li > ul.added > li::before{
+	content: '+++'; 
+	padding-right: 10px; 
+	font-size: 18px
+}
+
+.resultlist > ul > li > ul.removed > li::before{
+	content: '---'; 
+	padding-right: 10px; 
+	font-size: 18px
+}
+
+.resultlist > ul > li > ul > li span.lineno{
+	display: inline-block;
+    background: #000;
+    color: #fff;
+    padding: 0 5px;
+    margin-right: 10px
+}
+
+.resultlist > ul > li > ul > li span.code{
+	word-break: break-all;
+}
+
